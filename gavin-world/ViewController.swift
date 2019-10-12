@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         view.backgroundColor = .yellow
         
-        var mylabel = UILabel(frame: CGRect(x: 0.0, y: 0.0, width: 100.0, height: 100.0))
+        let mylabel = UILabel(frame: CGRect(x: 0.0, y: 0.0, width: 100.0, height: 100.0))
         mylabel.text = "Halo, Bro"
         
         view.addSubview(mylabel)
